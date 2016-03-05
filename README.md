@@ -10,7 +10,7 @@ docker create \
 	-p 8080:80 \
 	-v <path/to/smokeping/data>:/data \
 	-v <path/to/smokeping/config>:/config \
-	Safelink-Internet/smokeping
+	safelink-internet/smokeping
 ```
 
 Once running the URL will be `http://<host-ip>:8080/cgi-bin/smokeping.cgi`.
