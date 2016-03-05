@@ -1,4 +1,4 @@
-# Safelink-Internet/smokeping
+# safelink-internet/smokeping
 
 Smokeping keeps track of your network latency. For a full example of what this application is capable of visit [UCDavis](http://smokeping.ucdavis.edu/cgi-bin/smokeping.fcgi).
 
