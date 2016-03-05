@@ -36,9 +36,7 @@ Basics are, edit the Targets file to ping the hosts you're interested in to matc
 **Credits**
 
 * jlbyh2o <jeremy@safelinkinternet.com>
-* Linuxserver.io for original image
 
 **Version**
 
-03.04.2016: This is an update by Safelink Internet that exposes all config files.
-29.06.2015: This is the first release, it is mostly stable, but may contain minor defects. (thus a beta tag)
+2016.03.05: This is our first release.

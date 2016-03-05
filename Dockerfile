@@ -1,7 +1,7 @@
-FROM linuxserver/baseimage
+FROM phusion/baseimage:0.9.18
 MAINTAINER Safelink Internet
 # apache environment settings
-ENV APACHE_RUN_USER=abc APACHE_RUN_GROUP=users APACHE_LOG_DIR="/var/log/apache2" APACHE_LOCK_DIR="/var/lock/apache2" APACHE_PID_FILE="/var/run/apache2.pid"
+ENV DEBIAN_FRONTEND="noninteractive" HOME="/root" TERM="xterm" APACHE_LOG_DIR="/var/log/apache2" APACHE_LOCK_DIR="/var/lock/apache2" APACHE_PID_FILE="/var/run/apache2.pid"
 
 #Applying stuff
 RUN apt-get update && \
