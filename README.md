@@ -1,4 +1,4 @@
-# safelink-internet/smokeping
+# Smokeping
 
 Smokeping keeps track of your network latency. For a full example of what this application is capable of visit [UCDavis](http://smokeping.ucdavis.edu/cgi-bin/smokeping.fcgi).
 
@@ -10,7 +10,7 @@ docker create \
 	-p 8080:80 \
 	-v <path/to/smokeping/data>:/data \
 	-v <path/to/smokeping/config>:/config \
-	safelink-internet/smokeping
+	safelinkinternet/smokeping
 ```
 
 Once running the URL will be `http://<host-ip>:8080/cgi-bin/smokeping.cgi`.
