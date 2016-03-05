@@ -8,6 +8,7 @@ Smokeping keeps track of your network latency. For a full example of what this a
 docker create \
 	--name smokeping \
 	-p 8080:80 \
+	-e TZ="America/Boise" \
 	-v <path/to/smokeping/data>:/data \
 	-v <path/to/smokeping/config>:/config \
 	safelinkinternet/smokeping
@@ -18,6 +19,7 @@ Once running the URL will be `http://<host-ip>:8080/cgi-bin/smokeping.cgi`.
 **Parameters**
 
 * `-p 80` - the port for the webUI
+* `-e TZ` - configure the zoneinfo timezone, IE `America/Boise`
 * `-v /data` - Storage location for db and application data (graphs etc)
 * `-v /config` - All config files will be placed here
 
